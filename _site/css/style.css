@@ -10,7 +10,13 @@ body {
   color:#333;
   font-weight:300;
 }
-
+#particles-js{
+  width: 100%;
+  background-color: #3284BF;
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 .wrapper {
   width:950px;
   margin:0 auto;
