@@ -13,23 +13,23 @@ share: false
 gallery1: 
   - image_path: /assets/owner/blog/galleries/g01/bg1.jpg
     image-caption: IMAGE TITLE
-    image-copyright: © MADness
+    image-copyright: © Dennis
   - image_path: /assets/owner/blog/galleries/g01/bg2.jpg
     image-caption: IMAGE TITLE
-    image-copyright: © MADness
+    image-copyright: © Dennis
   - image_path: /assets/owner/blog/galleries/g01/bg3.jpg
     image-caption: IMAGE TITLE
-    image-copyright: © MADness 
+    image-copyright: © Dennis
 gallery2: 
   - image_path: /assets/owner/blog/galleries/g02/bg1.jpg
     image-caption: IMAGE TITLE
-    image-copyright: © MADness
+    image-copyright: © Dennis
   - image_path: /assets/owner/blog/galleries/g02/bg2.jpg
     image-caption: IMAGE TITLE
-    image-copyright: © MADness
+    image-copyright: © Dennis
   - image_path: /assets/owner/blog/galleries/g02/bg3.jpg
     image-caption: IMAGE TITLE
-    image-copyright: © MADness 
+    image-copyright: © Dennis 
 ---
 
 <p> Content of your post HERE </p>
