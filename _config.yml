@@ -1,6 +1,6 @@
 # Site settings
-title: "MADness"
-description: A Template for Jekyll
+title: "MyPage"
+description: A personal website and blog
 
 # Files
 baseurl:
@@ -9,9 +9,9 @@ assets:
   libs: assets/libs
   owner: assets/owner
 logo: logo.png
-discus_shortname: MADness
-email: mad@ness.com
-url: "http://madforjekyll.github.io"
+discus_shortname: Dennis
+email: denniskamau3@gmail.com
+url: "http://denniskamau.co.ke"
 search: true
 share: true
 comments: true
@@ -24,19 +24,16 @@ wpm: 200
 
 # Owner/author information
 owner:
-  name:   MADness
+  name:   Dennis Kamau
   avatar: avatar.jpg
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    MAD for Jekyll
+  description:    Software Developer
 
 # Social networking links used in footer. Update and remove as you like.
-twitter_username: MAD4Jekyll
-facebook_username: MAD4Jekyll
-github_username: MAD4Jekyll
-deviantart_username: MAD4Jekyll
-500px_username: MAD4Jekyll
-flickr_username: MAD4Jekyll
-instagram_username: MAD4Jekyll
+twitter_username: @denokama
+facebook_username: Dennis Kamau
+github_username: Denniskamau
+
 
  
 # Internal nav
