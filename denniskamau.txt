@@ -1,6 +1,8 @@
-<span id="a">denniskamau@gmail.com</span>:<span id="b">~</span><span id="c">$</span> sudo dennis<br/><br/>
+<span id="a">dennis@kamau.com</span>:<span id="b">~</span><span id="c">$</span> sudo dennis<br/><br/>
 Hi, I'm Dennis Kamau.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am a software developer and Tester.  I am currently into machine learning and Artificial Intelligence.</p><!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
-<p>I'm the founder and CEO of <a href="http://www.besttechie.com">BestTechie</a> and <a href="https://getkya.com">KYA</a>.</p><!- oqwipjefqwioefjwioqfjoiqwjfeioqwjefoi -->
+<p>I major in python and javascript.</p><!- oqwipjefqwioefjwioqfjoiqwjfeioqwjefoi -->
 <p>I love to read, listen to music, and travel.</p><!-- owlsqweoifjqwoefijqwoeifjqwoefijwef -->
-If you would like to get in touch with me, whether it be for tech support, a business venture, or to just say hi<!-- slightdelayhere-->, feel free to send me an email or a tweet.<!-- longlongcomment --> My email address is: <a href="mailto:jeff@besttechie.com">jeff@besttechie.com</a> and my Twitter is: <a href="http://twitter.com/jeffweisbein">@jeffweisbein</a>.
-<p>And if you haven't already, be sure to check out my tech publication <a href="http://www.besttechie.com">http://www.besttechie.com</a> and analytics startup <a href="https://getkya.com">https://getkya.com</a>.</p>
+If you would like to get in touch with me, whether it be for tech support, a business venture, or to just say hi<!-- slightdelayhere-->, feel free to send me an email , a tweet or call me.<!-- longlongcomment --> My email address is: <a href="mailto:denniskamau3@gmail.com">denniskamau3@gmail.com</a> ,my Twitter is: <a href="http://twitter.com/denokama">@denokama</a> and here is my number : +254700184646
+<p>If you would like to view my public git repo ,check it out from <a href="https://github.com/Denniskamau">Github</a> .</p>
+</p><!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
+<p>More about me can be found  <a href="https://www.linkedin.com/in/dennis-kamau-5a364462/">here</a> .</p>
