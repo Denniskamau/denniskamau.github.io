@@ -1,10 +1,10 @@
 
-<html> 
-    <head> 
-    <title>Dennis Kamau</title> 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+<html>
+    <head>
+    <title>Dennis Kamau</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <style type="text/css"> 
+    <style type="text/css">
         body {
             background-color: #000
         }
@@ -39,18 +39,18 @@
         #image{
             padding-top: 160px;
         }
-    </style> 
-    </head> 
-    <body> 
+    </style>
+    </head>
+    <body>
     <div class="container">
-    <div class="row"> 
-       </div>		
-        <div id="image" style="height:400px; width:371px;" class="col-md-4 pull-right col-xs-12">
+    <div class="row">
+       </div>
+        <div id="image" style="height:600px; width:371px;" class="col-md-4 pull-right col-xs-12">
             <img class=" img-circle , img-responsive" src="images/dennis.jpg" style="height:100%; width:100%">
-        </div>	
+        </div>
        <div class="col-md-offset-2 col-md-6">
            <h1>Dennis Kamau</h1>
-           <script type="text/javascript"> 
+           <script type="text/javascript">
         var Typer={
         text: null,
         accessCountimer:null,
@@ -66,16 +66,16 @@
                 Typer.text = Typer.text.slice(0, Typer.text.length-1);
             });
         },
-     
+
         content:function(){
             return $("#console").html();// get console content
         },
-     
+
         write:function(str){// append to console content
             $("#console").append(str);
             return false;
         },
-     
+
         makeAccess:function(){//create Access Granted popUp      FIXME: popup is on top of the page and doesn't show is the page is scrolled
             Typer.hidepop(); // hide all popups
             Typer.accessCount=0; //reset count
@@ -94,15 +94,15 @@
             $(document.body).prepend(ddiv);// prepend div to body
             return false;
         },
-     
+
         hidepop:function(){// remove all existing popups
             $("#deni").remove();
             $("#gran").remove();
         },
-     
+
         addText:function(key){//Main function to add the code
             if(key.keyCode==18){// key 18 = alt key
-                Typer.accessCount++; //increase counter 
+                Typer.accessCount++; //increase counter
                 if(Typer.accessCount>=3){// if it's presed 3 times
                     Typer.makeAccess(); // make access popup
                 }
@@ -120,36 +120,36 @@
                 if(key.keyCode!=8){ // if key is not backspace
                     Typer.index+=Typer.speed;	// add to the index the speed
                 }else{
-                    if(Typer.index>0) // else if index is not less than 0 
+                    if(Typer.index>0) // else if index is not less than 0
                         Typer.index-=Typer.speed;//	remove speed for deleting text
                 }
                 var text=Typer.text.substring(0,Typer.index)// parse the text for stripping html enities
                 var rtn= new RegExp("\n", "g"); // newline regex
-        
+
                 $("#console").html(text.replace(rtn,"<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
                 window.scrollBy(0,50); // scroll to make sure bottom is always visible
             }
             if ( key.preventDefault && key.keyCode != 122 ) { // prevent F11(fullscreen) from being blocked
                 key.preventDefault()
-            };  
+            };
             if(key.keyCode != 122){ // otherway prevent keys default behavior
                 key.returnValue = false;
             }
         },
-     
+
         updLstChr:function(){ // blinking cursor
-            var cont=this.content(); // get console 
+            var cont=this.content(); // get console
             if(cont.substring(cont.length-1,cont.length)=="|") // if last char is the cursor
                 $("#console").html($("#console").html().substring(0,cont.length-1)); // remove it
             else
                 this.write("|"); // else write it
         }
     }
-     
+
     function replaceUrls(text) {
         var http = text.indexOf("http://");
         var space = text.indexOf(".me ", http);
-        if (space != -1) { 
+        if (space != -1) {
             var url = text.slice(http, space-1);
             return text.replace(url, "<a href=\""  + url + "\">" + url + "</a>");
         } else {
@@ -159,7 +159,7 @@
     Typer.speed=3;
     Typer.file="denniskamau.txt";
     Typer.init();
-     
+
     var timer = setInterval("t();", 30);
     function t() {
         Typer.addText({"keyCode": 123748});
@@ -167,25 +167,25 @@
             clearInterval(timer);
         }
     }
-     
-    </script> 
-    <div id="console"></div> 
+
+    </script>
+    <div id="console"></div>
     <script type="text/javascript">
-    
+
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-610661-7']);
       _gaq.push(['_trackPageview']);
-    
+
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-    
+
     </script>
-    
+
     </div>
     </div>
-    
-    </body> 
-    </html> 
+
+    </body>
+    </html>
